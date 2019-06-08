@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./TipCal.css">
+	 <script src="tipCal.js"></script> 
+</head>
+<body>
+	<div class="formBox">
+		<div class = "calcHead">
+			<h2>TIP CALCULATOR<h2>
+		</div>
+		<form>
+			<div>
+				<label class="labels" for="amount">How much was your bill?<span class="asterisk">*</span></label>
+				$ <input type="number" name="amount" id="amount" placeholder="Bill Amount"><br>
+				<br>
+			</div>
+			<div>
+				<label class="labels" for="service">How was your service?<span class="asterisk">*</span></label>
+				<select name="service" class="bottomInputs" id="service">
+					<option value="" disabled selected hidden>Please choose below...</option>
+					<option value="outstanding">30% - Outstanding</option>
+					<option value="good">20% - Good</option>
+					<option value="ok">15% - It Was OK</option>
+					<option value="bad">10% - Bad</option>
+					<option value="terrible">5% - Terrible</option>
+				</select><br>
+				<br>
+			</div>
+			<div>
+				<label class="labels" id="labelShare" for="sharing">How many people are sharing the bill?<span class="asterisk">*</span></label>
+				<input type="text" class="bottomInputs" name="sharing" id="sharing" placeholder="Number of People"> people <br>
+			</div>
+			<div class="calc">
+			<br>
+			<input type="button" class="calcButton" name="calc" value="Calculate!" onclick="calculateTip()">
+			</div>
+		</form>
+		<div class="total">
+			<h2 id="tipAmount"></h2>
+			<p id="result"></p>
+		</div>
+	</div>
+</body>
+</html>

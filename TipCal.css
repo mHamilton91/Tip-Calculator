@@ -1,0 +1,79 @@
+body {
+	background-image: linear-gradient(90deg, #000, #991e1e);
+}
+
+form {
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: left;
+	font-size: 20px;
+}
+
+h2 {
+	padding-top: 7px;
+}
+
+#tipAmount, #result {
+	margin: 5px 0px;
+}
+
+#result {
+	font-size: 23px;
+}
+
+.calcHead {
+	background-color: #000;
+	color: #FFF;
+	border-radius: 20px 20px 0px 0px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+.formBox  {
+	margin: 150px auto;
+	text-align: center;
+	height: 550px;
+	width: 20%;
+	background-color: #FFF;
+	border-radius: 22px 22px 20px 20px;
+	min-width: 375px;
+}
+
+.labels {
+	display: block;
+	padding-bottom: 8px;
+}
+
+.bottomInputs {
+	margin-left: 14px;
+}
+
+.asterisk {
+	color: red;
+}
+
+.calc {
+	margin-left: 55px;
+}
+
+.calcButton {
+	background-color: #991e1e;
+	color: #FFF;
+	border: 1px solid gray;
+	height: 40px;
+	width: 150px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.calButton:hover {
+	color: #991e1e;
+}
+
+.total {
+	margin-top: 45px;
+	margin-left: 90px;
+	width: 200px;
+	/* border: 2px solid #000; */
+}
